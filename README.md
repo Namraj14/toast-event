@@ -1,10 +1,17 @@
-# toast-event
-Toasts provide immediate feedback to a user without disrupting their current task. The toast content is meant to be short and contextual, and provide the user with the information they need to know without getting in their way.
+## Toast Notifications in LWC
 
-Toasts inform users about the success or failure of actions, warnings, or other transient messages.
+Toasts are used to provide immediate feedback to users without disrupting their current tasks. They are commonly used in Lightning Web Components (LWC) to inform users about:
 
-Toasts let users know about important system events without getting in the way of their work. 
+- Success or failure of actions  
+- Warnings  
+- Important system events  
+- Other short-lived messages
 
-Toasts appear automatically or in response to user interaction.
+### Key Characteristics
 
-Toasts vanish after a specific time period or when the user closes them.
+- **Non-intrusive**: Toasts do not interrupt user workflows.
+- **Contextual**: Content is short and relevant to the action performed.
+- **Automatic or Triggered**: Toasts may appear automatically or in response to user interactions.
+- **Temporary**: Toasts disappear after a set period or when manually closed by the user.
+
+Use toast messages in your LWC projects to improve user experience and provide quick feedback.
