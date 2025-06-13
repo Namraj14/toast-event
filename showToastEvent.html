@@ -1,0 +1,23 @@
+<template>
+    <!-- lightning-card provides a styled container with a title -->
+    <lightning-card title="Toast">
+        
+        <!-- Button to trigger a success toast notification -->
+        <!-- 'brand' variant gives the button a prominent blue look -->
+        <lightning-button 
+            label="Show Success Toast" 
+            variant="brand" 
+            onclick={showSuccessToast}>
+        </lightning-button>
+
+        <!-- Button to trigger an error toast notification -->
+        <!-- 'value' should be 'variant' here for styling (likely a typo) -->
+        <!-- 'destructive' gives the button a red danger style -->
+        <lightning-button 
+            label="Show Error Toast" 
+            variant="destructive" 
+            onclick={showErrorToast}>
+        </lightning-button>
+        
+    </lightning-card>
+</template>
