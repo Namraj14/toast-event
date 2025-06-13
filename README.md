@@ -15,3 +15,10 @@ Toasts are used to provide immediate feedback to users without disrupting their 
 - **Temporary**: Toasts disappear after a set period or when manually closed by the user.
 
 Use toast messages in your LWC projects to improve user experience and provide quick feedback.
+
+| Variant   | Description                                  | UI Indicator    |
+| --------- | -------------------------------------------- | --------------- |
+| `success` | Indicates a successful operation             | Green checkmark |
+| `error`   | Indicates a failed operation or system error | Red exclamation |
+| `warning` | Warns users about a potential issue          | Yellow triangle |
+| `info`    | Provides general information to the user     | Blue info icon  |
