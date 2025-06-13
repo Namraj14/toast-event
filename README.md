@@ -22,3 +22,16 @@ Use toast messages in your LWC projects to improve user experience and provide q
 | `error`   | Indicates a failed operation or system error | Red exclamation |
 | `warning` | Warns users about a potential issue          | Yellow triangle |
 | `info`    | Provides general information to the user     | Blue info icon  |
+
+## ⚡ Toast in LWC
+
+- Toast is a **Service** (Prebuilt by Salesforce)
+- Toasts are **not regular HTML** — they are part of the **Salesforce UI framework**.
+
+Salesforce gives you a ready-to-use utility class for it:  
+👉 `ShowToastEvent` from `lightning/platformShowToastEvent`
+
+You import this like a tool or helper that does all the work of showing that popup:
+
+```js
+import { ShowToastEvent } from 'lightning/platformShowToastEvent';
